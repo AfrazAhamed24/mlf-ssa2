@@ -1,0 +1,189 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Components of a Conversational AI System</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #020617;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #0f172a, #020617);
+        }
+
+        header h1 {
+            font-size: 2.7rem;
+        }
+
+        header p {
+            color: #94a3b8;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #22c55e;
+            margin-top: 40px;
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .card {
+            background: #0f172a;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+            border: 1px solid #1e293b;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #22c55e;
+        }
+
+        .highlight {
+            color: #38bdf8;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .meta {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Key Components of a Conversational AI System</h1>
+    <p>Understanding the Building Blocks Behind Smart Chatbots</p>
+</header>
+
+<div class="container">
+
+    <div class="meta">
+        <span>By Afraz Ahamed</span>
+        <span>April 2026</span>
+    </div>
+
+    <p>
+        Conversational AI systems simulate human-like interactions using advanced technologies 
+        such as Natural Language Processing (NLP), Machine Learning, and cloud computing. 
+        Understanding their key components helps in building scalable and intelligent systems.
+    </p>
+
+    <h2>🧠 1. Natural Language Processing (NLP)</h2>
+    <div class="card">
+        <p>
+            NLP enables machines to understand and interpret human language. It processes 
+            user inputs and extracts meaningful information like intent and entities.
+        </p>
+    </div>
+
+    <h2>🤖 2. Machine Learning Models</h2>
+    <div class="card">
+        <p>
+            Machine learning algorithms allow the system to learn from data and improve over time. 
+            These models power intent recognition, predictions, and responses.
+        </p>
+    </div>
+
+    <h2>💬 3. Dialogue Management</h2>
+    <div class="card">
+        <p>
+            This component controls the flow of conversation. It decides how the system should 
+            respond based on context and user intent.
+        </p>
+    </div>
+
+    <h2>🔊 4. Speech Recognition & Synthesis</h2>
+    <div class="card">
+        <p>
+            Converts voice input into text (speech-to-text) and text into voice (text-to-speech), 
+            enabling voice-based interactions.
+        </p>
+    </div>
+
+    <h2>🌐 5. Backend & API Integration</h2>
+    <div class="card">
+        <p>
+            Connects the chatbot to databases, external services, and applications to fetch 
+            real-time data and perform actions.
+        </p>
+    </div>
+
+    <h2>☁️ 6. Cloud Infrastructure</h2>
+    <div class="card">
+        <p>
+            Cloud platforms ensure scalability, storage, and performance optimization for 
+            conversational AI systems.
+        </p>
+    </div>
+
+    <h2>📱 7. User Interface</h2>
+    <div class="card">
+        <p>
+            The frontend interface where users interact with the system, such as websites, 
+            mobile apps, or messaging platforms.
+        </p>
+    </div>
+
+    <h2>🚀 Conclusion</h2>
+    <p>
+        A conversational AI system is a combination of multiple technologies working together. 
+        When integrated effectively, these components create powerful, intelligent, and 
+        user-friendly systems.
+    </p>
+
+</div>
+
+<footer>
+    © 2026 Afraz | AI Blog Series
+</footer>
+
+</body>
+</html>
+```
